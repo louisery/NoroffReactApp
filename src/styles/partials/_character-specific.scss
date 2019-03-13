@@ -1,0 +1,19 @@
+.character {
+    text-align: center;
+    border-radius: 4px;
+
+    .character__img {
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .character__info {
+        h2 {
+            color: $green;
+        }
+        p {
+            color: $light-blue;
+        }
+    }
+}

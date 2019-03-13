@@ -17,13 +17,14 @@ handleCharacterSearchTerm(){
         const app = this;
 
         return (
-            <div className="[ search ]">
+            <div className="[ col-sm-4 ] [ search ]">
                 <input type="text" 
                        ref="searchTerm" 
                        onChange={app.handleCharacterSearchTerm} 
                        class="form-control" 
-                       placeholder="Search for a character" 
+                       placeholder="Search for a Character" 
                 />
+                <br />
             </div>
         );
     }

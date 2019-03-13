@@ -1,0 +1,32 @@
+.card {
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: $bg-blue;
+
+    &:hover {
+        border: 4px solid $green;
+        h3 {
+            text-decoration: underline;
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    h3 {
+        font-family: $heading-font;
+        color: $green;
+    }
+
+    p {
+        color: $light-blue;
+        font-family: $p-font;
+        font-size: 1.1em;
+        font-weight: 200;
+    }
+
+    
+}

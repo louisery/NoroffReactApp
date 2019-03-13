@@ -1,0 +1,13 @@
+.search {
+    float: none;
+    margin: 0 auto;
+    
+    input {
+        border-color: $light-blue;
+        
+
+        &:focus {
+            border-color: $green;
+        }
+    }
+}

@@ -1,2 +1,6 @@
-@import './src/styles/partials/header.scss';
-@import './src/styles/partials/card.scss';
+@import 'partials/variables';
+@import 'partials/header';
+@import 'partials/body';
+@import 'partials/card';
+@import 'partials/search';
+@import 'partials/character-specific';
