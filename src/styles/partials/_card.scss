@@ -4,6 +4,8 @@
     margin-top: 30px;
     background-color: $dark-blue;
     box-shadow: 5px 10px 10px 5px rgba($color: #000000, $alpha: 0.3);
+    min-height: 520px;
+    max-height: 520px;
 
     img {
         width: 80%;
