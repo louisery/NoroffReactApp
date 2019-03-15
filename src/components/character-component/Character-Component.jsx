@@ -11,7 +11,7 @@ export default class CharacterComponent extends React.Component {
                             <img src={this.props.image} />
                         </div>
                         <div>
-                            <h3>Name: {this.props.name}</h3>
+                            <h3>{this.props.name}</h3>
                             <p><b>Species: </b>{this.props.species}</p>
                             <p><b>Status: </b>{this.props.status}</p>
                             <p><b>Gender: </b>{this.props.gender}</p>
