@@ -6,23 +6,22 @@ export default class CharacterComponent extends React.Component {
         return (
             <div className="[ col-sm-4 ]">
                 <div className="[ card ]">
-                <a href={'#/character-specific/'+this.props.id} >
-                    <div>
-                        <img src={this.props.image} />
+                    <a href={'#/character-specific/' + this.props.id} >
+                        <div>
+                            <img src={this.props.image} />
 
-                    </div>
-                    <div>
-                        <h3>{this.props.name}</h3>
-                        <p><b>Species: </b>{this.props.species}</p>
-                        <p><b>Status: </b>{this.props.status}</p>
-                        <p><b>Gender: </b>{this.props.gender}</p>
-                        <p><b>Location: </b>{this.props.location}</p>
-                        <p><b>Place of origin: </b>{this.props.origin}</p>
-                    </div>
+                        </div>
+                        <div>
+                            <h3>{this.props.name}</h3>
+                            <p><b>Species: </b>{this.props.species}</p>
+                            <p><b>Status: </b>{this.props.status}</p>
+                            <p><b>Gender: </b>{this.props.gender}</p>
+                            <p><b>Location: </b>{this.props.location}</p>
+                            <p><b>Place of origin: </b>{this.props.origin}</p>
+                        </div>
                     </a>
                 </div>
             </div>
-            
         );
     }
 }
