@@ -33,9 +33,9 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/louisery/NoroffReactApp.git"
+    "url": "git://github.com/YOUR_USERNAME/PROJECT_NAME.git"
   },
-  "author": "Louise Ryste",
+  "author": "Cameron Moodley",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.6",

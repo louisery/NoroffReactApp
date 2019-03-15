@@ -9,15 +9,15 @@ import {
 } from 'react-router-dom';
 
 import App from './components/App/App';
-import Homepage from './pages/homepage';
-import CharacterSpecific from './pages/character-specific/character-specific';
+import Homepage from './pages/homepage/homepage';
+import CharacterSpecific from './pages/character-specific/character-specfic';
 
 const routes = (
     <HashRouter>
         <Switch>
             <App>
                 <Route path="/" exact component={Homepage} />
-                <Route path="/character-specific/:id" component={CharacterSpecific} />
+                <Route path="/character-specfic/:id" component={CharacterSpecific} />
             </App>
         </Switch>
     </HashRouter>
