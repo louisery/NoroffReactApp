@@ -4,7 +4,7 @@ import CharacterSpecificComponent from './../../components/character-specific-co
 
 export default class CharacterSpecific extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             rickMortyObj: [],
@@ -19,24 +19,24 @@ export default class CharacterSpecific extends React.Component {
 
     getData() {
         const app = this;
-        fetch('https://rickandmortyapi.com/api/character/'+app.state.characterId)
-        .then(response => {
-            return response.json()
-        })
-        .then(result => {
-            app.setState({
-                rickMortyObj: result
+        fetch('https://rickandmortyapi.com/api/character/' + app.state.characterId)
+            .then(response => {
+                return response.json()
             })
+            .then(result => {
+                app.setState({
+                    rickMortyObj: result
+                })
 
-            console.log(result, 'result')
-        });
+                console.log(result, 'result')
+            });
     }
 
     render() {
         const app = this;
         let specificCharacter = <CharacterSpecificComponent image={app.state.rickMortyObj.image}
-                                                            name={app.state.rickMortyObj.name}
-                                                            species={app.state.rickMortyObj.species}
+            name={app.state.rickMortyObj.name}
+            species={app.state.rickMortyObj.species}
         >
         </CharacterSpecificComponent>
         return (
