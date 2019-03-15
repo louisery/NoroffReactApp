@@ -1,4 +1,4 @@
-# React App
+# React App - Rick and Morty
 This is a React App showing characters from the tv-series Rick and Morty.
 
 # How to run the project
